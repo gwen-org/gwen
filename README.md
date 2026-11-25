@@ -135,8 +135,9 @@ Este repositório é o canal público da G.W.E.N.: aqui ficam as **Releases** (i
 
 | **Versão** | **Foco** | **Situação** |
 |:---:|:---:|:---:|
-| V0.1 a V0.9.2 | launcher, sessões, pausa, saúde, dados locais, navegação em trilho, sessões em paralelo, tarefas, ambientes de uso | publicadas |
-| V0.9.3 | botão "Nova coleção" visível e um nome só para coleção e categoria | próxima |
+| V0.1 a V0.9.3 | launcher, sessões, pausa, saúde, dados locais, navegação em trilho, sessões em paralelo, tarefas, ambientes de uso, Releases públicas e canal de Issues | publicadas |
+| V0.9.4 | painel de administração e canal de testes, para aprovar versões antes de liberar | próxima |
+| V0.9.5 a V0.9.6 | visão geral das coleções, nova tela de tarefas, fluxos de tarefa por projeto e escrita no GitHub | planejadas |
 | V0.10 a V0.11 | clientes e pipeline, finanças e check-in de foco | planejadas, em beta fechado |
 | V0.12 | pronta para o público: política de privacidade, planos, site e lançamento | planejada |
 | V0.13 a V0.17 | calendário, sistemas, caderno, ideias e padrões de trabalho | planejadas |
