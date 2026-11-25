@@ -1,0 +1,40 @@
+name: Sugerir uma melhoria
+description: Uma ideia para a G.W.E.N.
+title: "[Sugestão] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Issues são públicas. Não inclua dados pessoais ou de clientes.
+        Sugestões entram no roadmap conforme a necessidade real de uso, sem prazo prometido.
+  - type: textarea
+    id: problema
+    attributes:
+      label: Qual problema você tem hoje
+      description: Descreva a situação, não a solução.
+    validations:
+      required: true
+  - type: textarea
+    id: ideia
+    attributes:
+      label: Como você imaginou a solução
+    validations:
+      required: true
+  - type: textarea
+    id: alternativas
+    attributes:
+      label: Como você resolve isso hoje
+      description: Outro app, planilha, gambiarra...
+  - type: dropdown
+    id: area
+    attributes:
+      label: Área
+      options:
+        - Projetos
+        - Tempo e sessões
+        - Pausa e saúde
+        - Tarefas
+        - Relatório e perfil
+        - Aparência
+        - Outro

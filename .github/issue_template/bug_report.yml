@@ -1,0 +1,61 @@
+name: Relatar um bug
+description: Algo na G.W.E.N. não funcionou como deveria
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Issues são públicas. Não inclua caminhos de pastas pessoais, nomes de clientes, e-mails nem prints com dados que você não queira expor.
+  - type: input
+    id: versao
+    attributes:
+      label: Versão da G.W.E.N.
+      description: Aparece em Ajustes, Sobre.
+      placeholder: "0.9.2"
+    validations:
+      required: true
+  - type: dropdown
+    id: sistema
+    attributes:
+      label: Sistema
+      options:
+        - Windows 11
+        - Windows 10
+        - Outro
+    validations:
+      required: true
+  - type: dropdown
+    id: modo
+    attributes:
+      label: Modo de dados
+      options:
+        - Local
+        - Conta na nuvem (Supabase)
+    validations:
+      required: true
+  - type: textarea
+    id: o-que-aconteceu
+    attributes:
+      label: O que aconteceu
+    validations:
+      required: true
+  - type: textarea
+    id: reproduzir
+    attributes:
+      label: Como reproduzir
+      placeholder: |
+        1. Abri...
+        2. Cliquei em...
+        3. Aconteceu...
+    validations:
+      required: true
+  - type: textarea
+    id: esperado
+    attributes:
+      label: O que você esperava que acontecesse
+  - type: textarea
+    id: prints
+    attributes:
+      label: Prints ou mensagens de erro
+      description: Se tiver, cole aqui. Confira antes se não aparece nada pessoal.
